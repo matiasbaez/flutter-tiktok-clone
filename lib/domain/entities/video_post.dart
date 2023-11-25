@@ -1,12 +1,12 @@
 
-class VideoPosts {
+class VideoPost {
 
   final String caption;
   final String url;
   final int likes;
   final int views;
 
-  VideoPosts({
+  VideoPost({
     this.likes = 0,
     this.views = 0,
     required this.caption,
